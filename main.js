@@ -9,8 +9,11 @@ const zoomOut = document.querySelector('.zoom-out');
 let image;
 
 const onImageLoaded = () => {
+  //Draw your image to the canvas here
 };
 
+
+//Load the user's chosen image
 fileInput.addEventListener('change', (e) => {
   image = new Image();
   image.onload = onImageLoaded;
